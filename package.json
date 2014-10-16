@@ -1,0 +1,18 @@
+{
+    "schema_version": "1.0",
+    "addons": [
+        {
+            "name": "mx_rangeslider",
+            "label": "MX Range Slider",
+            "version": "1.0.1",
+            "types": [
+                "fieldtype"
+            ],
+            "paths": {
+                "system": [
+                    "system/expressionengine/third_party/mx_rangeslider"
+                ]
+            }
+        }
+    ]
+}
