@@ -1,6 +1,6 @@
 #MX RangeSlider CE
 MX RangeSlider is range fieldtype for ExpressionEngine 2 which helps you to create a really nice and user friendly range select elements.
-![MX RangeSlider](http://cl.ly/image/3c3q0T263C43/Image%202014-10-16%20at%202.54.33%20PM.png)
+![MX RangeSlider](http://cl.ly/image/2g3r2n190C2n/Image%202014-10-16%20at%202.55.34%20PM.png)
 
 ##Support Policy
 
