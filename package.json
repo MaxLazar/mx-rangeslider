@@ -13,7 +13,7 @@
                     "system/expressionengine/third_party/mx_rangeslider"
                 ],
                 "themes": [
-                        "themes/third_party/mx_select_plus"
+                        "themes/third_party/mx_rangeslider"
                 ]
             }
         }
