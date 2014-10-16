@@ -6,7 +6,7 @@ MX RangeSlider is range fieldtype for ExpressionEngine 2 which helps you to crea
 
 This is Communite Edition (CE) add-on.
 
-##Contributing To MX Calculator CE
+##Contributing To MX RangeSlider CE
 
 Your participation to MX RangeSlider CE development is very welcome!
 
@@ -17,4 +17,6 @@ You may participate in the following ways:
 Before you start, please adopt an existing issue (labelled with "ready for adoption") or start a new one to avoid duplicated efforts.
 Please submit a merge request after you finish development.
 
-The MX RangeSlider CE is open-sourced software licensed under the MIT license
+### License
+
+The MX Calculator is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
