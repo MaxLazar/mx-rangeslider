@@ -1,9 +1,11 @@
-#MX RangeSlider
+# MX RangeSlider
 MX RangeSlider is range fieldtype for ExpressionEngine which helps you to create a really nice and user friendly range select elements.
+![MX RangeSlider](resources/img/mx-range-slider.png)
+
 ![MX RangeSlider](resources/img/mx-range-slider.gif)
 
 
-##Compatibility
+## Compatibility
 * Multi Site Manager
 * Channel Form
 * Grid
@@ -17,17 +19,17 @@ MX RangeSlider is range fieldtype for ExpressionEngine which helps you to create
 * Matrix
 * Low Variables
 
-##Installation
+## Installation
 * Download the latest version of MX RangeSlider and extract the .zip to your desktop.
 * Copy *mx_rangeslider* to *system/user/addons/third_party/*
 * Copy *themes/user/mx_rangeslider* to *themes/user/*
 
-##Activation
+## Activation
 * Log into your control panel
 * Browse to Addons
 * Install MX RangeSlider
 
-##Field settings
+## Field settings
 **type**	Optional property, will select slider type from two options: single - for single range slider, or double - for double range slider
 
 **min**	Range minumum
@@ -61,7 +63,7 @@ MX RangeSlider is range fieldtype for ExpressionEngine which helps you to create
 **theme**  Skin.
 
 
-##Templates Variables
+## Templates Variables
 
 	{field_name}
 
@@ -75,7 +77,7 @@ MX RangeSlider is range fieldtype for ExpressionEngine which helps you to create
 
 	{field_name:to}
 
-###Grid Example
+### Grid Example
 
 **Single Range**
 
@@ -93,11 +95,11 @@ MX RangeSlider is range fieldtype for ExpressionEngine which helps you to create
 		{/grid_field:mx_rangeslider_ft_double}
 	{/grid_field}
 
-##Support Policy
+## Support Policy
 
 This is Communite Edition add-on.
 
-##Contributing To MX RangeSlider CE
+##Contributing To MX RangeSlider
 
 Your participation to MX RangeSlider development is very welcome!
 
@@ -108,9 +110,9 @@ You may participate in the following ways:
 Before you start, please adopt an existing issue (labelled with "ready for adoption") or start a new one to avoid duplicated efforts.
 Please submit a merge request after you finish development.
 
-###License
+### License
 
 The MX RangeSlider is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
-###Thanks To
+### Thanks To
 [Denis Ineshin](https://github.com/IonDen) for [ion.rangeSlider](https://github.com/IonDen/ion.rangeSlider) ([MIT license](http://opensource.org/licenses/MIT))
