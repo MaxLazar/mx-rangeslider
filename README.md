@@ -1,9 +1,9 @@
 # MX RangeSlider
 MX RangeSlider is range fieldtype for ExpressionEngine which helps you to create a really nice and user friendly range select elements.
-![MX RangeSlider](resources/img/mx-range-slider.png)
 
 ![MX RangeSlider](resources/img/mx-range-slider.gif)
 
+![MX RangeSlider](resources/img/mx-range-slider.png)
 
 ## Compatibility
 * Multi Site Manager
@@ -15,9 +15,6 @@ MX RangeSlider is range fieldtype for ExpressionEngine which helps you to create
 * ExpressionEngine 4
 * ExpressionEngine 5
 * ExpressionEngine 6
-
-* Matrix
-* Low Variables
 
 ## Installation
 * Download the latest version of MX RangeSlider and extract the .zip to your desktop.
@@ -99,7 +96,7 @@ MX RangeSlider is range fieldtype for ExpressionEngine which helps you to create
 
 This is Communite Edition add-on.
 
-##Contributing To MX RangeSlider
+## Contributing To MX RangeSlider
 
 Your participation to MX RangeSlider development is very welcome!
 
