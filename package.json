@@ -10,7 +10,7 @@
             ],
             "paths": {
                 "system": [
-                    "system/expressionengine/third_party/mx_rangeslider"
+                    "system/user/addons/mx_rangeslider"
                 ],
                 "themes": [
                         "themes/third_party/mx_rangeslider"

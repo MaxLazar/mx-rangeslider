@@ -1,0 +1,16 @@
+{
+  "name": "MX Range Slider",
+  "shortname": "mxrangeslider",
+  "version": "2.0.0",
+  "foundation_version": "4.5.2",
+  "description": "Is an easy, flexible and responsive range slider for ExpressionEngine CMS with tons of options.",
+  "license": "MaxLazar",
+  "namespace": "MX\\RangeSlider",
+  "require": {
+    "php": ">=5.3.*",
+    "expressionengine/core": ">=3.5.17"
+  },
+  "resources": {
+    "themes": true
+  }
+}
