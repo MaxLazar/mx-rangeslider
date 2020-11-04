@@ -232,8 +232,9 @@ class Mx_rangeslider_ft extends EE_Fieldtype
     public function display_field($data, $view_type = 'field', $settings = array(), $cp = true, $passed_init = array())
     {
 
-        $js = "";
-        $r = "";
+        $js    = "";
+        $r     = "";
+        $class = "";
 
         if (!empty($settings)) {
             $cp = false;
@@ -246,6 +247,8 @@ class Mx_rangeslider_ft extends EE_Fieldtype
         } else {
             $settings = array_merge($this->settings, $settings);
         }
+
+
 
         $is_grid = isset($this->settings['grid_field_id']);
 
@@ -260,6 +263,23 @@ class Mx_rangeslider_ft extends EE_Fieldtype
 
         if ($view_type == 'cell') {
             $field_name = $this->cell_name;
+        }
+
+        if ($view_type == 'cell') {
+            $field_name = $this->cell_name;
+            $class      .= 'mx-rangeslider-matrix';
+        }
+
+        if ($view_type == 'grid') {
+            $field_name = $this->field_name;
+            $class      .= 'mx-rangeslider-grid';
+        }
+
+        $pos = strpos($field_name, "[fields]");
+        $fluid_field_data_id = (isset($this->settings['fluid_field_data_id'])) ? $this->settings['fluid_field_data_id'] : 0;
+
+        if ($view_type == 'field' &&  ( $fluid_field_data_id !=0 || $pos === false )) {
+            $class  .= 'mx-star-field';
         }
 
         $data = array(
@@ -292,7 +312,7 @@ class Mx_rangeslider_ft extends EE_Fieldtype
         $attr[] = 'id="' . $data['id']. '"';
         $attr[] = 'style="display:none"';
 
-        if (!$cell) {
+        if (!$cell &&  ( $fluid_field_data_id !=0 || $pos === false )) {
             $js .='$("#'.$data['id'].'").ionRangeSlider();
         ';
         }
