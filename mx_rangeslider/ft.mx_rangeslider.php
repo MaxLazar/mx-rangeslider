@@ -25,13 +25,14 @@ class Mx_rangeslider_ft extends EE_Fieldtype
 
     public $field2ee =  array('boolean' => 'toggle', 'number' => 'text', 'select'=>'select', 'function'=>'textarea', 'string' => 'text', 'array' => 'textarea', 'object' => 'textarea');
 
-    private static $js_added = false;
-    private static $cell_bind = true;
-    private static $grid_bind = true;
+    private static $js_added         = false;
+    private static $cell_bind        = true;
+    private static $grid_bind        = true;
 
-    private $fallback_content = '';
+    private $fallback_content        = '';
     public $cell_name;
-    public $has_array_data = true;
+    public $has_array_data           = true;
+    public $entry_manager_compatible = true;
 
     /**
      * Package name.
@@ -137,6 +138,29 @@ class Mx_rangeslider_ft extends EE_Fieldtype
                     'group' => 'mx_rangeslider',
                     'settings' => $settings,
         ));
+    }
+
+
+    /**
+     * [renderTableCell description]
+     * @param  [type] $data     [description]
+     * @param  [type] $field_id [description]
+     * @param  [type] $entry    [description]
+     * @return [type]           [description]
+     */
+    function renderTableCell($data, $field_id, $entry)
+    {
+        $r  ='';
+
+        $minmax =  explode(";", $data);
+
+        $r = $minmax[0];
+
+        if (count($minmax) > 1) {
+            $r .= " → " . $minmax[1];
+        }
+
+        return $r;
     }
 
     /**
@@ -441,6 +465,8 @@ class Mx_rangeslider_ft extends EE_Fieldtype
 
         return $r;
     }
+
+
 
     /**
      * replace_from
